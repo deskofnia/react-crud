@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import AddTutorial from "./components/add-tutorial.component";
 import TutorialsList from "./components/tutorials-list.component";
 import Tutorial from "./components/tutorial.component";
+import "./App.css";
 
 class App extends Component {
   render() {

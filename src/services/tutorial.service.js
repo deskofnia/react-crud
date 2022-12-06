@@ -2,6 +2,7 @@ import http from "../http-common";
 // console.log(http);
 class TutorialDataService {
   getAll() {
+    // console.log("hjkdskd")
     return http.get("/tutorials");
   }
 
