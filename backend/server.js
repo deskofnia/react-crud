@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const db = require("./app/models");
-db.sequelize.sync({ force: true })
+db.sequelize.sync({ force: true })  //creates table , dropping it first if it already existed
   .then(() => {
     console.log("Drop and re-sync db");
   })
